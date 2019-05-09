@@ -16,6 +16,20 @@ Given: 2, Output: [ ]
 ## Solution
 
 ![Alt text](/img/1.png)
+
+## Description
+: Write a method that returns an array of all of the multiples for a given number. A multiple of a given number is a number that can be multiplied by a second number to make the given numbers
+
+Examples:
+
+Given: 7, Output: [ 1, 7 ]
+
+Given: 24, Output: [ 1, 2, 3, 4, 6, 8, 12, 24 ]
+
+
+## Solution
+
+![Alt text](/img/2.png)
 ## Technologies Used
 
 * C#
