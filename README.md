@@ -15,24 +15,6 @@ Given: 2, Output: [ ]
 
 ## Solution
 
-int max = 50;
-List<Item> myList = ArrayList<Item>;
-for (int i =1; i< max; i++)
-{
-  boolIsPrime=true;
-
-for (int j=2; j < i/2; j++)
-{
-  if (i%j == 0)
-  {
-    isPrime = false;
-  }
-}
-if(isPrime)
-{
-  myList.Add(i);
-}
-}
 ![Alt text](/img/1.png)
 ## Technologies Used
 
