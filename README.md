@@ -30,6 +30,21 @@ Given: 24, Output: [ 1, 2, 3, 4, 6, 8, 12, 24 ]
 ## Solution
 
 ![Alt text](/img/2.png)
+
+
+## Description
+Fibonacci numbers
+
+Examples:
+
+Given: 7, Output: [ 0,1,1,2,3,5 ]
+
+
+
+
+## Solution
+
+![Alt text](/img/3.png)
 ## Technologies Used
 
 * C#
