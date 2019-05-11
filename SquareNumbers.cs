@@ -7,25 +7,23 @@ public static void Main ()
 
 {
 	Console.WriteLine("Please enter your number");
-	int userNumer = int.Parse(Console.ReadLine());
+	int userNumber = int.Parse(Console.ReadLine());
+	sum=0;
 
-	bool isSquare = false;
-	for (int i= 0; i < userNumer; i++)
+
+	for (int i =1; i<= userNumber; i++)
 	{
-
-		if(i<userNumer && i*i == userNumer)
+		for (int j= 1; j < userNumber; j++)
 		{
-			isSquare = true;
+
+			if(j<i && j*j == i)
+			{
+				Console.WriteLine(sum(i));
+			}
 		}
+
 	}
-	if(isSquare == true)
-	{
-		Console.WriteLine("isSquare");
-	}
-	else
-	{
-		Console.WriteLine ("sorry,no");
-	}
+
 
 }
 }
