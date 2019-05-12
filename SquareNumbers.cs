@@ -8,22 +8,21 @@ public static void Main ()
 {
 	Console.WriteLine("Please enter your number");
 	int userNumber = int.Parse(Console.ReadLine());
-	sum=0;
-
+	int sum=0;
 
 	for (int i =1; i<= userNumber; i++)
 	{
-		for (int j= 1; j < userNumber; j++)
+		for (int j= 1; j <= userNumber; j++)
 		{
 
-			if(j<i && j*j == i)
+			if(j<=i && j*j == i)
 			{
-				Console.WriteLine(sum(i));
+				sum+=i;
 			}
 		}
 
 	}
 
-
+	Console.WriteLine(sum);
 }
 }
